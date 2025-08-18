@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    background-image: url(images/shelfs.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container {
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    background-color: #f8e6cce1;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #99a987;
+    margin-bottom: 50px;
+}
+
+input.todo-input{
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+
+input.todo-input::placeholder {
+    color: gray;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+button.todo-button{
+    height: 40px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color:#F0A04B;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    margin-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+.container form{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
+button.todo-button:hover{
+    background-color: #c17e37;
+}
+
+ul {
+    padding: 40px;
+    margin: 0px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    background-color:#c2d0b2e6;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+div.task-text{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #825B32;
+}
+
+ul li.completed  div.task-text{
+    text-decoration: line-through;
+    text-decoration-color: #EC5228;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.actions{
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
